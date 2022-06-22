@@ -1,0 +1,12 @@
+name: ical_generator
+description: Generates an ical calendar for the SGDQ 2022 schedule
+# version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  html: ^0.15.0
+  http: ^0.13.4
+  ical_serializer: ^0.0.3
